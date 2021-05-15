@@ -3,16 +3,16 @@ import { Redirect } from "react-router-dom";
 import { signin, authenticate } from "../auth";
 import { Link } from "react-router-dom";
 import SocialLogin from "./SocialLogin";
-import { makeStyles } from '@material-ui/core/styles';
-import LinearProgress from '@material-ui/core/LinearProgress';
-import Input from '@material-ui/core/Input';
-import FormControl from '@material-ui/core/FormControl';
-import TextField from '@material-ui/core/TextField'
+import { makeStyles } from "@material-ui/core/styles";
+import LinearProgress from "@material-ui/core/LinearProgress";
+import Input from "@material-ui/core/Input";
+import FormControl from "@material-ui/core/FormControl";
+import TextField from "@material-ui/core/TextField";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '100%',
-    '& > * + *': {
+    width: "100%",
+    "& > * + *": {
       marginTop: theme.spacing(2),
     },
   },
@@ -126,19 +126,23 @@ class Signin extends Component {
   signinForm = (email, password, recaptcha) => (
     <form>
       <div className="form-group">
-
-        <TextField id="standard-basic" required  label="Email"  className="form-control" onChange={this.handleChange("email")}
-        
+        <TextField
+          id="standard-basic"
+          required
+          label="Email"
+          className="form-control"
+          onChange={this.handleChange("email")}
           type="email"
-                
           value={email}
         />
       </div>
       <div className="form-group">
-
-         <TextField id="standard-basic" label="Password"  className="form-control" onChange={this.handleChange("password")}
+        <TextField
+          id="standard-basic"
+          label="Password"
+          className="form-control"
+          onChange={this.handleChange("password")}
           type="password"
-      
           value={password}
         />
       </div>
@@ -147,8 +151,11 @@ class Signin extends Component {
           {recaptcha ? "Thanks. You got it!" : "What day is today?"}
         </label>
 
-             <TextField id="standard-basic"  onChange={this.recaptchaHandler}  className="form-control"/>
-
+        <TextField
+          id="standard-basic"
+          onChange={this.recaptchaHandler}
+          className="form-control"
+        />
       </div>
       <button className="btn btn-raised btn-primary" onClick={this.clickSubmit}>
         Submit
@@ -157,14 +164,8 @@ class Signin extends Component {
   );
 
   render() {
-    const {
-      email,
-      password,
-      error,
-      redirectToReferer,
-      loading,
-      recaptcha,
-    } = this.state; //deconstruct
+    const { email, password, error, redirectToReferer, loading, recaptcha } =
+      this.state; //deconstruct
     if (redirectToReferer) {
       return <Redirect to="/" />;
     }
@@ -172,7 +173,7 @@ class Signin extends Component {
       <div className="container">
         <h2 className="mt-5 mb-5 page_title">Sign in</h2>
         <hr />
-        <SocialLogin />
+        {/*<SocialLogin /> */}
         <hr />
         <div
           className="alert alert-danger"
@@ -181,10 +182,10 @@ class Signin extends Component {
           {error}
         </div>
         {loading ? (
-         <div className="">
-      <LinearProgress color="primary" />
-      <LinearProgress color="secondary" />
-    </div>
+          <div className="">
+            <LinearProgress color="primary" />
+            <LinearProgress color="secondary" />
+          </div>
         ) : (
           ""
         )}

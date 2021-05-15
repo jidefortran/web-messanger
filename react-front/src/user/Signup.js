@@ -141,7 +141,7 @@ class Signup extends Component {
         <h2 className="mt-5 mb-5 page_title">Signup</h2>
 
         <hr />
-        <SocialLogin />
+        {/*<SocialLogin /> */}
 
         <hr />
         <br />
