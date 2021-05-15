@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79b4ae03-4204-4500-98ce-62d94289c78e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/react-front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-front/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-front/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-front/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/react-front/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-front/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/react-front/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-front/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-front/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-front/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-front/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-front/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-front/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-front/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-front/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-front/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-front/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-front/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/react-front" />
+  </component>
+  <component name="ProjectId" id="1rKPwCsyFvdirVmaPyxlIKC51uM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79b4ae03-4204-4500-98ce-62d94289c78e" name="Default Changelist" comment="" />
+      <created>1618722045730</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618722045730</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618722127923">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1618722127923" />
+  </component>
+</project>

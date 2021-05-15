@@ -1,0 +1,7 @@
+{
+  "name": "poetree",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
